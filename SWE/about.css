@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    min-height: 100;
+    font-family: 'Varela Round', sans-serif;
+    
+    
+}
+.movie-info{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    margin-top: -20px;
+}
+
+.movie-detail{
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 1;
+}
+
+.movie-name{
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 1;
+    color: white;
+
+}
+
+.genres{
+    margin:30px 0;
+    font-weight: 900;
+    color: white;
+
+}
+
+.description{
+    width: 70%;
+    line-height: 20px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: white;
+
+    
+}
+
+.starring span{ 
+    
+    color: white;
+}
+
+.starring{
+    color: white;
+}
+
+.crew span{ 
+    
+    color: white;
+}
+
+.crew{
+    color: white;
+}
+
+.Reviews{
+    background:rgb(245, 214, 169);
+    margin-bottom: -8px;
+}
+
+.reviewfont{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    font-size: 20px;
+}
