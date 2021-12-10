@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="about.css" rel="stylesheet">
+    <title>Review and Synopsis</title>
+</head>
+<body>
+    <div class="movie-info">
+        <div class="movie-detail">
+            <h1 class="movie-name">
+                movie name
+            </h1>
+            <p class="genres">2018|comedy</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi aut aliquid! Asperiores eveniet tempore, id veniam aperiam illum molestiae quaerat perspiciatis ratione dignissimos tenetur commodi ut voluptas ad rerum adipisci, architecto eum dolore!</p>
+            <p class="starring"><span>
+                Starring :
+            </span></p>
+            <p class="crew"><span>
+                Crew :
+            </span></p>
+            
+
+            
+
+        </div>
+    </div>
+    <div class="Reviews">
+        <span class="reviewfont">Reviews :</span>
+        <p class="review">
+            
+        </p>
+    </div>
+    <script src="api.js"></script>
+    <script src="about.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  <script>
+      $('.review').hide(0);
+      $('p').mouseenter(function(){
+      $('.review').fadeIn(6000)})
+  </script>
+
+    
+</body>
+</html>

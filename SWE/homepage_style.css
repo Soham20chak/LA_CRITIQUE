@@ -1,0 +1,98 @@
+
+#main{
+    margin-bottom: -10px;
+}
+
+:root{
+    --primary-color:rgb(190, 106, 139);
+    --secondary-color:cyan;
+}
+
+body{
+    background-color: cyan;   
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:rgb(245, 214, 169);
+}
+.movie{
+    width:300px;
+    height: 400px;
+    margin: 4.5rem;
+    border-radius: 3px;
+    background-color: rgb(255, 186, 121);
+    position: relative;
+}
+
+.movie-info{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.7px;
+    
+}
+.movie-info h3{
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.movie-info span{
+    background-color: rgb(255, 221, 148);
+    padding: 0.3rem 0.25rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green{
+    color: green;
+}
+.movie-info span.orange{
+    color: orange;
+}
+.movie-info span.red{
+    color: red;
+}
+
+
+.movie img{
+    width: 100%;
+    height: 100%;
+}
+
+.login{
+    background-color: rgb(181, 193, 214);
+}
+
+.btn2{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(181, 193, 214);
+    
+
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: rgb(12, 1, 4);
+}
+
+.btn2 a:hover{
+    color:rgb(116, 9, 187);
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.movie img{
+    border-radius: 15px;
+}
